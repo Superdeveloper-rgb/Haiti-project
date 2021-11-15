@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+p {
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    color: rgb(202, 144, 69);
+    text-decoration: none;
+}
+a::after {
+    content: ' >';
+}
