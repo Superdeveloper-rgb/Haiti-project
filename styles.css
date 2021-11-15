@@ -20,10 +20,10 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+li {
+    margin: 5px 0;
+}
 a {
     color: rgb(202, 144, 69);
     text-decoration: none;
-}
-a::after {
-    content: ' >';
 }
